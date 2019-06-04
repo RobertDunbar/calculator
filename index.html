@@ -1,10 +1,38 @@
 <!DOCTYPE html>
-<!-- Skelton index.html file-->
+<!-- Calculator index.html file-->
 <html>
     <head>
-        <title>My page</title>
-        <link href="../skeleton/styles/style.css" rel="stylesheet" type="text/css">
+        <title>The Odin Project Calculator project</title>
+        <link href="styles/reset.css" rel="stylesheet" type="text/css">
+        <link href="styles/style.css" rel="stylesheet" type="text/css">
     </head>
     <body>
+        <div id="container">
+            <div id="calc-display">
+                <div id="top-display"></div>
+                <div id="bottom-display">0</div>
+            </div>
+            <div id="button-container">
+                <button id="clr-button">CLR</button>
+                <button id="del-button">DEL</button>
+                <button class="num-button" id="one-button">1</button>
+                <button class="num-button" id="two-button">2</button>
+                <button class="num-button" id="three-button">3</button>
+                <button class="operator" id="divide-button">/</button>
+                <button class="num-button" id="four-button">4</button>
+                <button class="num-button" id="five-button">5</button>
+                <button class="num-button" id="six-button">6</button>
+                <button class="operator" id="multiply-button">*</button>
+                <button class="num-button" id="seven-button">7</button>
+                <button class="num-button" id="eight-button">8</button>
+                <button class="num-button" id="nine-button">9</button>
+                <button class="operator" id="subtract-button">-</button>
+                <button class="num-button" id="point-button">.</button>
+                <button class="num-button" id="zero-button">0</button>
+                <button class="operator" id="equals-button">=</button>
+                <button class="operator" id="add-button">+</button>
+            </div>
+        </div>
     </body>
+    <script src="scripts/script.js"></script>
 </html>
