@@ -1,5 +1,5 @@
-// Calculator script file for Odin project
-let lowerDisplay = "0";
+// Calculator script file for Odin project blah
+let lowerDisplay = "1";
 let upperDisplay = "";
 let theExpression = "";
 let pointTriggered = false;
